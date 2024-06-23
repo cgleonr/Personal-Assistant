@@ -8,5 +8,16 @@ The two main purposes for this project are as follows:
 
 ## Resources used:
 - Python - as a main programming language
-- Datasets - TBD
 - Libraries - TBD
+
+
+## Credits
+### Datasets
+- @misc{wang2023helpsteer,
+      title={HelpSteer: Multi-attribute Helpfulness Dataset for SteerLM}, 
+      author={Zhilin Wang and Yi Dong and Jiaqi Zeng and Virginia Adams and Makesh Narsimhan Sreedhar and Daniel Egert and Olivier Delalleau and Jane Polak Scowcroft and Neel Kant and Aidan Swope and Oleksii Kuchaiev},
+      year={2023},
+      eprint={2311.09528},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+  }
