@@ -3,8 +3,8 @@ A personal, somewhat ambitious project for myself to work on to become familiari
 
 # Purpose
 The two main purposes for this project are as follows:
-    - To become more familiar with GitHub and version control in Python
-    - To create a personalized assistant, training my own LLM on a small-scale, and adding day-to-day useful capabilities to it.
+- To become more familiar with GitHub and version control in Python
+- To create a personalized assistant, training my own LLM on a small-scale, and adding day-to-day useful capabilities to it.
 
 ## Resources used:
 - Python - as a main programming language
