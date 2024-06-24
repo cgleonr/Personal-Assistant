@@ -35,11 +35,10 @@ class HuggingFaceDatasetDownloader:
     def convert_to_dataframes(self, save_local=False):
         """Used to convert the datasets object into a pd.DataFrame object"""
         sets = len(self.ds)
-        print(f"Total datasets: {sets}")
         if sets == 2:
             try:
-                train = self.ds[0]
-                test = self.ds[1]
+                train = pd.DataFrame(self.ds[0])
+                test = pd.DataFrame(self.ds[1])
             except:
                 train = pd.DataFrame(self.ds['train'])
                 test = pd.DataFrame(self.ds['validation'])
@@ -50,10 +49,12 @@ class HuggingFaceDatasetDownloader:
             try:
                 train.to_csv(f"datasets/{self.filename}_train.csv")
                 test.to_csv(f"datasets/{self.filename}_test.csv")
-                print("files saved locally")
             except:
                 print("could not save data to files")
 
+        self.data = (train, test)
 
 
-HuggingFaceDatasetDownloader(address="nvidia/HelpSteer", filename="HelpSteer", save_local=False)
+if __name__ == "__main__":
+    HuggingFaceDatasetDownloader(address="nvidia/HelpSteer", filename="HelpSteer", save_local=False)
+    print("Class test run successfully")
