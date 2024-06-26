@@ -21,3 +21,7 @@ The two main purposes for this project are as follows:
     archivePrefix={arXiv},
     primaryClass={cs.CL}
 }
+
+### Users
+- Carlos Leon (@cgleonr)
+- Natasha Kovacheva (@hotchillispicy)
