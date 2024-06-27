@@ -85,5 +85,5 @@ if __name__ == "__main__":
     send_whatsapp_message("18096133332", "No le haga caso a ete mensaje, toy testing el AI assistant que toy armando en python, ete mensaje lo mando they/them")
     [print(f"- {news}\n") for news in get_latest_news()]
     print(get_weather_report("Luzern"))
-    [print(f"- {news}\n") for news in get_trending_movies()]
+    [print(f"- {movie}\n") for movie in get_trending_movies()]
     print(get_random_joke())
