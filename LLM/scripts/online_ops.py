@@ -78,12 +78,12 @@ def get_random_joke():
 
 
 if __name__ == "__main__":
-    # print(find_my_ip())
-    # print(search_on_wikipedia("python programming language"))
-    # play_on_youtube("python course")
-    # search_on_google("python")
-    # send_whatsapp_message("18096133332", "No le haga caso a ete mensaje, toy testing el AI assistant que toy armando en python, ete mensaje lo mando they/them")
-    # [print(f"- {news}\n") for news in get_latest_news()]
-    # print(get_weather_report("Luzern"))
-    # [print(f"- {news}\n") for news in get_trending_movies()]
+    print(find_my_ip())
+    print(search_on_wikipedia("python programming language"))
+    play_on_youtube("python course")
+    search_on_google("python")
+    send_whatsapp_message("18096133332", "No le haga caso a ete mensaje, toy testing el AI assistant que toy armando en python, ete mensaje lo mando they/them")
+    [print(f"- {news}\n") for news in get_latest_news()]
+    print(get_weather_report("Luzern"))
+    [print(f"- {news}\n") for news in get_trending_movies()]
     print(get_random_joke())
