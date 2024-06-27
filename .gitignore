@@ -11,3 +11,4 @@ env.bak/
 venv.bak/
 
 # Local Directories (Data)
+LLM/datasets/contacts.json
