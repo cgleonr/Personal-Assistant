@@ -4,6 +4,7 @@ import pywhatkit as kit
 from email.message import EmailMessage
 import smtplib
 from decouple import config
+import json
 
 def find_my_ip():
     """Returns IP address as a dictionary"""
@@ -47,9 +48,6 @@ def get_latest_news():
         news_headlines.append(article['title'])
     return news_headlines[:5]
 
-
-
-
 def get_weather_report(city):
     OPENWEATHER_APP_ID = config("OPENWEATHER_APP_ID")
     res = requests.get(
@@ -82,7 +80,10 @@ if __name__ == "__main__":
     print(search_on_wikipedia("python programming language"))
     play_on_youtube("python course")
     search_on_google("python")
-    send_whatsapp_message("18096133332", "No le haga caso a ete mensaje, toy testing el AI assistant que toy armando en python, ete mensaje lo mando they/them")
+    # get contact info from contacts_json
+    with open("LLM/datasets/contacts.json", 'r') as fp:
+        contact_list = json.load(fp)
+    send_whatsapp_message(contact_list["test"]['number'], "Test message, ignore")
     [print(f"- {news}\n") for news in get_latest_news()]
     print(get_weather_report("Luzern"))
     [print(f"- {movie}\n") for movie in get_trending_movies()]

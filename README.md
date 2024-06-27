@@ -12,6 +12,16 @@ The three main purposes for this project are as follows:
 - Libraries - TBD
 
 
+## How To
+### LLM
+So far, the functions all work individually. However, you will need to download API keys for each of the APIs in use, and add them into the .env file accordingly.
+#### online_ops
+Currently, all functions here work properly, given good internet connection and a proper API key. Note, however, that the function for sending whatsapp messages currently only opens whatsapp web on your browser (you need to be logged in) and types the message, but does not send it.
+
+
+
+
+
 ## Credits
 ### Datasets
 - TBD
