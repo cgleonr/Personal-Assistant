@@ -11,5 +11,3 @@ env.bak/
 venv.bak/
 
 # Local Directories (Data)
-Facial_Recognition/datasets/
-LLM/datasets/contacts.json
