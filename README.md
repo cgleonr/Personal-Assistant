@@ -30,13 +30,3 @@ Currently, all functions here work properly, given good internet connection and 
 ### Users
 - Carlos Leon (@cgleonr)
 - Natasha Kovacheva (@hotchillispicy)
-
-
-{
-    "Hernan Vasquez":{
-        "number":18096133332
-    },
-    "Natasha Kovacheva":{
-        "number":41766103605
-    }
-}
