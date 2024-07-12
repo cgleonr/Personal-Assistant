@@ -14,9 +14,9 @@ script_dir = Path(__file__).parent.resolve()
 print(script_dir)
 print("current working directory", os.getcwd())
 # dont need cs already created manually
-#Path("train").mkdir(exist_ok=True)
-#Path("output").mkdir(exist_ok=True)
-#Path("validation").mkdir(exist_ok=True)
+Path("train").mkdir(exist_ok=True)
+Path("output").mkdir(exist_ok=True)
+Path("validation").mkdir(exist_ok=True)
 
 
 """ This function uses a for loop to go through each 
