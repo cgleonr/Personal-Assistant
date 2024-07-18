@@ -42,6 +42,7 @@ function from face_recognition to load each image.
 As an input it requires a model type and a location to save the encodings
 will be generated for each image"""
 
+
 def encode_known_faces(
         model: str="hog", encodings_location: Path = DEFAULT_ENCODINGS_PATH
 ) -> None:
